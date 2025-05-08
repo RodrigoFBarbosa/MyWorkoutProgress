@@ -10,7 +10,7 @@ namespace MyWorkoutProgress.API.Controllers;
 public class UserController : ControllerBase
 {
     [HttpPost]
-    [ProducesResponseType(typeof(ResponseRegisterUserJson), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
     public IActionResult Register(RequestRegisterUserJson request)
     {
         return Created();
