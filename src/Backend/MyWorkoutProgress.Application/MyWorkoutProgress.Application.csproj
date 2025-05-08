@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\MyWorkoutProgress.Communication\MyWorkoutProgress.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\MyWorkoutProgress.Exceptions\MyWorkoutProgress.Exceptions.csproj" />
+    <ProjectReference Include="..\MyWorkoutProgress.Domain\MyWorkoutProgress.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
