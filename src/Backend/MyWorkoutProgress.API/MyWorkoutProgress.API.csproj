@@ -14,6 +14,7 @@
     <ProjectReference Include="..\..\Shared\MyWorkoutProgress.Communication\MyWorkoutProgress.Communication.csproj" />
     <ProjectReference Include="..\..\Shared\MyWorkoutProgress.Exceptions\MyWorkoutProgress.Exceptions.csproj" />
     <ProjectReference Include="..\MyWorkoutProgress.Application\MyWorkoutProgress.Application.csproj" />
+    <ProjectReference Include="..\MyWorkoutProgress.Infrastructure\MyWorkoutProgress.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
